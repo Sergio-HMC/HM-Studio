@@ -1,34 +1,22 @@
-# Home Market Studio Web
+# Home Market Studio
 
-Landing page desarrollada con Next.js (App Router) para subir a GitHub y desplegar en Vercel.
+Landing page desarrollada con Next.js App Router, lista para desplegar en Vercel.
 
-## Cómo correr localmente
+## Requisitos
+- Node.js 20 o superior
 
+## Instalación
 ```bash
 npm install
 npm run dev
 ```
 
-Abre `http://localhost:3000`.
-
 ## Deploy en Vercel
+Vercel detecta automáticamente este proyecto como Next.js.
 
-1. Sube esta carpeta a un repositorio de GitHub.
-2. En Vercel, importa el repositorio.
-3. Vercel detectará automáticamente que es un proyecto Next.js.
-4. Build command: `npm run build`
-5. Output: configuración automática de Next.js
+Si tuviste un bloqueo por versión vulnerable de Next.js, este proyecto ya fue actualizado a una versión corregida.
 
-## Estructura
-
-- `app/page.tsx`: landing principal
-- `app/layout.tsx`: layout general y metadata SEO básica
-- `app/globals.css`: estilos globales
-- `public/logo-hm-studio.jpeg`: logo entregado
-
-## Siguiente mejora recomendada
-
-Conectar el formulario a:
-- Formspree
-- Resend + API Route
-- HubSpot / Mailchimp
+## Build local
+```bash
+npm run build
+```
