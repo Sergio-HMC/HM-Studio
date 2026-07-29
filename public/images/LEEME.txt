@@ -1,0 +1,2 @@
+Coloca aquí las fotografías con los nombres indicados en el README.md.
+La web las mostrará automáticamente sin cambiar el código.
